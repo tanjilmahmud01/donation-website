@@ -107,3 +107,71 @@ body {
 section {
     margin-bottom: 150px;
 }
+
+.donation-plan-elements {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.donation-plan-elements h3 {
+    font-size: 20px;
+}
+
+.dontation-item-1 {
+    margin-right: 30px;
+    margin-left: 150px;
+    border: 2px solid yellow;
+    background-color: powderblue;
+    padding: 50px 15px;
+    border-radius: 5px;
+}
+
+
+
+.dontation-item-1 p {
+    text-align: left;
+}
+
+
+.dontation-item-2 {
+    margin-right: 30px;
+    padding: 50px 15px;
+    border: 2px solid yellow;
+    background-color: rgb(213, 197, 202);
+    border-radius: 5px;
+}
+
+.dontation-item-2 p {
+    text-align: left;
+}
+
+.dontation-item-3 {
+    margin-right: 150px;
+    padding: 50px 15px;
+    border: 2px solid yellow;
+    background-color: rgb(200, 140, 129);
+    border-radius: 5px;
+}
+
+.dontation-item-3 p {
+    text-align: left;
+}
+
+.item-picture {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(46, 16, 16);
+    padding: 15px 30px;
+    color: white
+}
+
+#big-footer {
+    font-size: 30px;
+    color: rgb(236, 85, 30);
+}

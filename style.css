@@ -5,13 +5,19 @@ body {
     margin: 0%;
 }
 
+input {
+    box-shadow: none;
+    border: 0;
+    outline: none;
+}
+
 
 
 .top-banner {
     background-image: url(images/donation12_edited.jpeg);
     height: 700px;
     width: 100%;
-    border: 2px solid red;
+    /*border: 1px solid red;*/
 
 }
 
@@ -43,7 +49,7 @@ body {
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: 600;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     font-weight: 700;
     background-color: rgba(222, 221, 221, 0.729);
     margin: 0px;
@@ -67,8 +73,14 @@ body {
 }
 
 .top-division {
-    border: 2px solid blue;
-    margin-top: 150px;
+    /*border: 2px solid blue;*/
+    padding-top: 80px;
+}
+
+.top-division h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
 }
 
 .middle-section h1 {
@@ -89,7 +101,7 @@ body {
 .money-selection-division {
     display: flex;
     text-align: center;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     margin-top: 30px;
 }
 
@@ -120,7 +132,7 @@ body {
 
 .other-amount {
     margin-top: 50px;
-    border: 2px solid brown;
+    /*border: 2px solid brown;*/
     margin-left: 660px;
     text-align: center;
     font-size: 15px;
@@ -144,7 +156,7 @@ section {
 .dontation-item-1 {
     margin-right: 30px;
     margin-left: 150px;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     background-color: powderblue;
     padding: 50px 15px;
     border-radius: 5px;
@@ -160,7 +172,7 @@ section {
 .dontation-item-2 {
     margin-right: 30px;
     padding: 50px 15px;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     background-color: rgb(213, 197, 202);
     border-radius: 5px;
 }
@@ -172,7 +184,7 @@ section {
 .dontation-item-3 {
     margin-right: 150px;
     padding: 50px 15px;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     background-color: rgb(200, 140, 129);
     border-radius: 5px;
 }
@@ -199,3 +211,15 @@ footer {
 }
 
 .get-update {}
+
+.image-center {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+#contribute-btn {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+}

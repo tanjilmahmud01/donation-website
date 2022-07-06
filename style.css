@@ -5,7 +5,7 @@ body {
     margin: 0%;
 }
 
-section {}
+
 
 .top-banner {
     background-image: url(images/donation12_edited.jpeg);
@@ -47,4 +47,63 @@ section {}
 .top-division {
     border: 2px solid blue;
     margin-top: 150px;
+}
+
+.middle-section h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+
+.middle-section p {
+    color: black;
+    font-size: 20px;
+    margin: 0%;
+    text-align: center;
+}
+
+.money-selection-division {
+    display: flex;
+    text-align: center;
+    border: 2px solid green;
+    margin-top: 30px;
+}
+
+.money-box {
+    background-color: rgba(218, 208, 208, 0.847);
+    color: rgb(132, 121, 121);
+    font-size: 30px;
+    font-weight: 700;
+
+    padding: 3px 10px;
+    margin-right: 10px;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.first-money-box {
+    margin-left: 20%;
+}
+
+.last-money-box {
+    margin-right: 20%;
+}
+
+.selected-money-box {
+    color: tomato;
+    border: 3px solid tomato;
+}
+
+.other-amount {
+    margin-top: 50px;
+    border: 2px solid brown;
+    margin-left: 660px;
+    text-align: center;
+    font-size: 15px;
+}
+
+section {
+    margin-bottom: 150px;
 }
